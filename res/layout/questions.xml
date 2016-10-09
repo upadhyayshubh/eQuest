@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/b1" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+    <RadioGroup
+        android:id="@+id/quesrbid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ques1id"
+        android:layout_below="@+id/ques1id"
+        android:layout_marginTop="30dp" 
+        android:layout_marginLeft="15dp"
+        
+        >
+
+        <RadioButton
+            android:id="@+id/ans1id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="RadioButton" />
+
+        <RadioButton
+            android:id="@+id/ans2id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           
+            android:text="RadioButton" />
+
+        <RadioButton
+            android:id="@+id/ans3id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RadioButton" />
+
+        <RadioButton
+            android:id="@+id/ans4id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RadioButton" />
+    
+        </RadioGroup>
+
+    <TextView
+        android:id="@+id/ques1id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/nextbtnid"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/quesrbid"
+        android:layout_marginRight="21dp"
+        android:layout_marginTop="16dp"
+        android:text="Next" />
+
+    <Button
+        android:id="@+id/prevbtnid"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/quesrbid"
+        android:layout_below="@+id/quesrbid"
+        android:layout_marginTop="18dp"
+        android:text="Prev" />
+
+    <Button
+        android:id="@+id/submitbtnid"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/prevbtnid"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="30dp"
+        android:text="Submit" />
+
+</RelativeLayout>
+</ScrollView>
+            

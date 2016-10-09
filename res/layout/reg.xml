@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/ednameid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="enter name" />
+
+    <EditText
+        android:id="@+id/edemailid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ednameid"
+        android:layout_below="@+id/ednameid"
+         android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="enter email id" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/edmobileid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edemailid"
+        android:layout_below="@+id/edemailid"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="enter mobile no." />
+
+    <EditText
+        android:id="@+id/edcollegeid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edmobileid"
+        android:layout_below="@+id/edmobileid"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="enter college name" />
+
+    <EditText
+        android:id="@+id/edpasswordid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edcollegeid"
+        android:layout_below="@+id/edcollegeid"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="enter password"
+        
+   />
+
+    <Button
+        android:id="@+id/savebtnid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edpasswordid"
+        android:layout_below="@+id/edpasswordid"
+        android:layout_marginTop="10dp"
+        android:text="Register" />
+
+    
+    
+</RelativeLayout>
