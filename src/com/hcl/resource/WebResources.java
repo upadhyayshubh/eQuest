@@ -16,9 +16,9 @@ public class WebResources {
 	
 	public static String GET_ALL_QUESTIONS=MAIN_URL+"GetAllQuestionsServlet";
 
-	public static int marks=4;
+	public static int marks=3;
 	
-	public static int negativemarks=1;
+	public static int negativemarks=0;
 	
 	
 }
